@@ -1,0 +1,107 @@
+.smallCalendar
+{
+    padding: 5px 10px;
+    display: grid;
+    grid-template-rows: 30px 30px 150px;
+    grid-template-columns: repeat(7, 40px);
+    font-family: "Comic Sans MS";
+    font-size: 11pt;
+}
+
+.previous
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.next
+{
+    grid-column: 7/8;
+    grid-row: 1/2;
+}
+button
+{
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    opacity: .5;
+}
+button:hover
+{
+    opacity: 1;
+}
+
+.monthYear
+{
+    grid-column: 2/7;
+    grid-row: 1/2;
+    background: transparent;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.dayOfTheWeek
+{
+    grid-row: 2/3;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: repeat(7,40px);
+    grid-template-rows: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.mo
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.tu
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.we
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.th
+{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.fr
+{
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+.sa
+{
+    grid-column: 6/7;
+    grid-row: 1/2;
+}
+.su
+{
+    grid-column: 7/8;
+    grid-row: 1/2;
+}
+
+.gridOfMonth
+{
+    grid-row: 3/4;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-rows: repeat(6,25px);
+    grid-template-columns: repeat(7,40px);
+    text-align: center;
+}
+
+.p, .n
+{
+    color: gray;
+}

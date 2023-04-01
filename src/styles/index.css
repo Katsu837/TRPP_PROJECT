@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App
+{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 300px calc(100% - 390px);
+    grid-template-rows: 60px 110px 220px 540px;
+    grid-gap: 30px;
+}
+
+.smallCalendar
+{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    background: lightgray;
+    border-radius: 20px;
+}
