@@ -1,5 +1,4 @@
 import React from "react";
-import smallCalendar from "./components/SmallCalendar";
 import SmallCalendar from "./components/SmallCalendar";
 function App() {
   return (

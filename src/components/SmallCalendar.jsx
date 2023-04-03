@@ -2,8 +2,9 @@ import React, {useState} from "react";
 import DaysOfTheWeek from "./smallCalendarComponents/DaysOfTheWeek";
 import GridOfMonth from "./smallCalendarComponents/GridOfMonth";
 import '../styles/SmallCalendar.css'
-import iconLeft from "./image/icons8-<-24.png"
-import iconRight from "./image/icons8->-24.png"
+import iconRight from './image/icons8-_-24.png'
+import iconLeft from './image/icons8-_-24 (1).png'
+
 
 const SmallCalendar = function ()
 {
@@ -37,9 +38,9 @@ const SmallCalendar = function ()
 
     return(
         <div className="smallCalendar">
-            <button className="previous" onClick={previousMonth}><img src={iconLeft} alt="previous" width="20px" height="20px" /></button>
+            <button className="previous" onClick={previousMonth}>{<img src={iconLeft} alt="previous" width="20px" height="20px" />}</button>
             <a className="monthYear">{nameMonth}, {year}</a>
-            <button className="next" onClick={nextMonth}><img src={iconRight} alt="previous" width="20px" height="20px" /></button>
+            <button className="next" onClick={nextMonth}>{<img src={iconRight} alt="previous" width="20px" height="20px" />}</button>
             <DaysOfTheWeek/>
             <GridOfMonth month={month % 12} year={year} />
         </div>
