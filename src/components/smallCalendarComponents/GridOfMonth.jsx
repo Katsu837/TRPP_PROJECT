@@ -3,6 +3,7 @@ import Day from "./Day";
 
 const GridOfMonth = function(props)
 {
+    const today = new Date()
     let date = new Date()
     date.setMonth(props.month)
     date.setFullYear(props.year)
@@ -24,6 +25,7 @@ const GridOfMonth = function(props)
         if(checkMonth == 1 && checkYear(date.getFullYear())) return 29
         return 28
     }
+
     let gridMonth = [[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],
         [0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],
         [0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "],[0," "]]
@@ -36,6 +38,10 @@ const GridOfMonth = function(props)
     {
         gridMonth[i][0] = k
         gridMonth[i][1] = "t"
+        if(props.month == today.getMonth() && props.year == today.getFullYear() && i == numOfWeekDay + today.getDate()-1)
+        {
+            gridMonth[i][1] = "x"
+        }
     }
     for (let i = numOfWeekDay-1, k = countPreviousMonthDay; i >= 0; k--, i--)
     {
@@ -95,4 +101,4 @@ const GridOfMonth = function(props)
     )
 }
 
-export default GridOfMonth;
+export default  GridOfMonth;

@@ -105,3 +105,10 @@ button:hover
 {
     color: gray;
 }
+
+.x
+{
+
+    border-radius: 20px;
+    background: darkgrey;
+}
