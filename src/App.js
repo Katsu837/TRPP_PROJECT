@@ -15,10 +15,7 @@ function App() {
         <Route path="/reg" element={<Registration/>}></Route>
       </Routes>
     </BrowserRouter>
-    <div className="App">
-    <div className='App'>
-     <Calendarlists />
-      </div>
+    <div className="App"></div>
   );
 }
 
