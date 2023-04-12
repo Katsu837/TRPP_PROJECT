@@ -1,9 +1,11 @@
 import React from "react";
-import Entry from "./Registration and entry/Entry";
-import Registration from "./Registration and entry/Registration";
+import Entry from "./registrationEntryComponents/Entry";
+import Registration from "./registrationEntryComponents/Registration";
 
-const Registration_Entry = function(){
+const RegistrationEntry = function(){
     return(
-        <div></div>
+        <Registration/>
     )
 }
+
+export default RegistrationEntry;
