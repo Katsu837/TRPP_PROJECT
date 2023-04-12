@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f604cb8-e2e1-48c3-9bc7-bd82372b8244" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SmallCalendar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SmallCalendar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/registrationEntryComponents/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registrationEntryComponents/Registration.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/smallCalendarComponents/Day.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/smallCalendarComponents/Day.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/smallCalendarComponents/GridOfMonth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/smallCalendarComponents/GridOfMonth.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/SmallCalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/SmallCalendar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,8 @@
       <workItem from="1679750122959" duration="2666000" />
       <workItem from="1680111482397" duration="26586000" />
       <workItem from="1680175455015" duration="800000" />
-      <workItem from="1680178900140" duration="17313000" />
+      <workItem from="1680178900140" duration="18525000" />
+      <workItem from="1681195609006" duration="3768000" />
     </task>
     <servers />
   </component>

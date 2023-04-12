@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-const Day =  function(props)
+const Day = function(props)
 {
     let dayName = "day " + props.monthFlag
 
