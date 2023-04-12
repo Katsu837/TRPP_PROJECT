@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
+import "../styles/Entry.css"
 
 const Entry = function(){
     const [user, setUser] = useState({
@@ -12,11 +13,12 @@ const Entry = function(){
     
 
     return(
+        <div className="registr">
         <div className="entry-main">
             <h2>Entry</h2>
             <form>
-                <input type="text" id="login" value={user.login} onChange={event => setUser({...user, login: event.target.value})} required />
-                <input type="password" id="password" value={user.password} onChange={event => setUser({...user, password: event.target.value})} required />
+                <input placeholder="Login" type="text" id="login" value={user.login} onChange={event => setUser({...user, login: event.target.value})} required />
+                <input placeholder="Password" type="password" id="password" value={user.password} onChange={event => setUser({...user, password: event.target.value})} required />
                 <button id="entry"
                 onClick={(event)=>{
                     event.preventDefault()
@@ -24,6 +26,7 @@ const Entry = function(){
                 }}>Entry</button>            
             </form>
             <Link to="/reg">Wanna create an account?</Link>
+        </div>
         </div>)
 }
 
