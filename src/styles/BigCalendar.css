@@ -19,7 +19,7 @@
 .selectFormat {
     grid-column: 1/2;
 }
-select {
+.select {
     font-size: 18pt;
     width: 100%;
     height: 70%;
@@ -29,7 +29,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     border-radius: 20px;
-    background: url("../image/iconDown.png") 96% / 15% no-repeat #eee;
+    background: url("../components/image/iconDown.png") 96% / 15% no-repeat #eee;
 }
 .previous
 {
