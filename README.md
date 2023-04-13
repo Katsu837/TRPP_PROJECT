@@ -1,5 +1,5 @@
 
-## Мотивация
+## Цель
 Целью нашего проекта было желание упростить процесс встречи между двумя людьми,
 так как современный темп жизни настолько быстр, что очные встречи становятся все более редкими.
 Так же мы хотели переосмыслить современный календарь и добавить в него что-то новое.
@@ -9,7 +9,7 @@
 серым отмечено время занятое хотя бы у одного человека из участников, 
 а зеленым свободное для всех участников время.
 
-##  Motivation
+##  Target
 The goal of our project was to simplify the process of meeting between two people,
 since today's pace of life is so fast that face-to-face meetings are becoming increasingly rare.
 We also wanted to rethink the modern calendar and add something new to it.
