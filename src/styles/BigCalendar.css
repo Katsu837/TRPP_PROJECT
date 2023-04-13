@@ -29,7 +29,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     border-radius: 20px;
-    background: url("../image/iconDown.png") 96% / 15% no-repeat #eee;
+    background: url("../components/image/iconDown.png") 96% / 15% no-repeat #eee;
 }
 .previous
 {

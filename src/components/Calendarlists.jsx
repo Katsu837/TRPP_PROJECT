@@ -1,9 +1,9 @@
 import React from "react";
 
-import MyCalendar from './CalendarlistsComponents/MyCalendar';
-import FriendsList from './CalendarlistsComponents/FriendsList';
-import FriendSearch from './CalendarlistsComponents/FriendSearch';
-import '../styles/Calendarlistsstyle.css';
+import MyCalendar from './Friendsaddsearchopen/MyCalendar';
+import FriendsList from './Friendsaddsearchopen/FriendList';
+import FriendSearch from './Friendsaddsearchopen/FriendSearch';
+import '../styles/CalendarListStyle.css';
 
 const Calendarlists = () => {
       return(
@@ -16,3 +16,4 @@ const Calendarlists = () => {
   };
 
   export default Calendarlists;
+  

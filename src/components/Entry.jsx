@@ -22,10 +22,11 @@ const Entry = function(){
                 <button id="entry"
                 onClick={(event)=>{
                     event.preventDefault()
-                    navigate("/mainPage") // пока что этой страницы нет, потому что вы еще ее не сделали
+                    navigate("/MainPage") // пока что этой страницы нет, потому что вы еще ее не сделали
                 }}>Entry</button>            
             </form>
             <Link to="/reg">Wanna create an account?</Link>
+            <Link to="/MainPage">MainPage</Link>
         </div>
         </div>)
 }
