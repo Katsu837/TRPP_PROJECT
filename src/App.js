@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Entry from "./components/Entry";
 import Registration from "./components/Registration";
 import './styles/index.css'
-import Calendarlists from './components/Calendarlists';
+import CalendarList from "./components/CalendarList";
 import MainPage from "./components/MainPage";
 
 function App() {
@@ -16,6 +16,9 @@ function App() {
         <Route path="/MainPage" element={<MainPage/>}></Route>
       </Routes>
     </BrowserRouter>
+  <div className="App">
+     <CalendarList />
+      </div>
   );
 }
 
